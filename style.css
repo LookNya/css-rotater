@@ -1,0 +1,75 @@
+﻿body{
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+#d1{
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	-webkit-transform:rotate(120deg);
+	background: grey;
+	box-shadow: 0 0 2px grey;
+	background: url(http://twilightgarden.net/studio/images/backg_open01.jpg);
+	-webkit-animation:spin3 15s infinite linear;
+}
+
+#d2{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	-webkit-transform:rotate(120deg);
+	background: red;
+	box-shadow: 0 0 2px grey;
+	background: url(http://twilightgarden.net/studio/images/backg_open01.jpg);
+	-webkit-animation:spin2 10s infinite linear;
+}
+
+#d3{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	-webkit-transform:rotate(120deg);
+	background: yellow;
+	box-shadow: 0 0 2px grey;
+	background: url(http://twilightgarden.net/studio/images/backg_open01.jpg);
+	-webkit-animation:spin2 15s infinite linear;
+}
+
+#d4{
+	position: absolute;
+	width: 1000px;
+	height: 1000px;
+	-webkit-transform:rotate(120deg);
+	background: blue;
+	box-shadow: 0 0 2px grey;
+	background: url(http://twilightgarden.net/studio/images/backg_open01.jpg);
+	-webkit-animation:spin 100s infinite linear;
+}
+#d5{
+	position: absolute;
+	font-size: 100px;
+	color: yellow;
+	margin:33%;
+}
+@-webkit-keyframes spin {
+	0% { -webkit-transform:rotate(0deg); }
+	25% { -webkit-transform:rotate(180deg); }
+	40% { -webkit-transform:rotate(-180deg); }
+	70% { -webkit-transform:rotate(-360deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}
+@-webkit-keyframes spin2 {
+	0% { -webkit-transform:rotate(-360deg); }
+	25% { -webkit-transform:rotate(-180deg); }
+	40% { -webkit-transform:rotate(180deg); }
+	70%  { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}
+@-webkit-keyframes spin3 {
+	0% { -webkit-transform:rotate(0deg); }
+	25% { -webkit-transform:rotate(-360deg); }
+	40% { -webkit-transform:rotate(-180deg); }
+	70% { -webkit-transform:rotate(-360deg); }
+	100% { -webkit-transform:rotate(180deg); }
+}
